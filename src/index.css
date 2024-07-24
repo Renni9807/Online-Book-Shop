@@ -29,23 +29,31 @@ body {
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
+  position: relative;
 }
 
 h2 {
   margin: 1rem auto;
 }
 
-span {
+.book-number {
   position: absolute;
-  background-color: rgb(194, 71, 71);
-  color: white;
-  margin: -2rem;
+  background-color: #c35600;
+  color: #fff;
+  top: 0;
+  left: 0;
   padding-right: 1rem;
   padding-top: 0.4rem;
   border: none;
   width: 3rem;
   height: 2em;
   clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem auto;
 }
 
 .book h2 {
