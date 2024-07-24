@@ -7,7 +7,7 @@ import Book from "./book";
 const BookList = () => {
   return (
     <>
-      <h1 className="title">Amazon Best Sellers</h1>
+      <h1 className="title">amazon best sellers</h1>
       <section className="booklist">
         {bookArray2.map((item) => {
           return <Book {...item} key={item.id} />;
