@@ -39,10 +39,6 @@ body {
   position: relative;
 }
 
-h2 {
-  margin: 1rem auto;
-}
-
 .book-number {
   position: absolute;
   background-color: #c35600;
@@ -58,25 +54,18 @@ h2 {
 }
 
 .book h2 {
+  margin: 1rem auto;
   font-size: 1rem;
 }
 
 .book h4 {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #617d98;
 }
 
 .book p {
   margin: 1rem 0;
   align-items: start;
-}
-
-.book button {
-  border: none;
-  background-color: #222;
-  color: #fff;
-  border-radius: 1rem;
-  padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
