@@ -1,4 +1,4 @@
-# SIte URL: https://inquisitive-blancmange-0c9bc5.netlify.app
+# Site URL: https://inquisitive-blancmange-0c9bc5.netlify.app
 
 # Getting Started with Create React App
 
